@@ -30,7 +30,7 @@
 .body{
     /* background-color: teal; */
     
-background-color: black;
+background-image:url("../images//home.jpg");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 height: 700px;

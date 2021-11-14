@@ -1,0 +1,141 @@
+.Home a{
+    padding: 15px 30px;
+    text-decoration: none;
+    color:rgb(253, 202, 65);
+    
+
+}
+
+
+.Home a:hover{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke; 
+    border-radius: 10px;
+
+
+}
+.btn{
+    background-color: whitesmoke;
+
+
+}
+/* .Home{
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+.body{
+    /* background-color: teal; */
+    
+background-color: black;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 700px;
+border-radius:0px;
+
+}
+
+#aka {
+    font-size: 40px;
+    color:rgb(231, 123, 0);
+
+}
+
+
+
+
+/* ABOUT US */
+
+#about{
+    /* background-color: rgba(231, 231, 231, 0.9); */
+    /* background-image: url("/images/black.png"); */
+    background-size: 100% 100%;
+    background-color: rgb(5,4,9);
+    border-radius: 20px;
+}h3{
+    color: whitesmoke;
+}
+
+.kid{
+    border-radius: 0px;
+    height: 1000px;
+    width: 40vw;
+}
+.border{
+    border: 2px solid rgb(253, 202, 65);
+    border-radius: 0px;
+    color:wheat;
+}
+#output{
+    color: black;
+    background-color: rgb(253, 202, 65);
+    font-size: 30px;
+    border-radius: 10px;
+    /* padding: 20px; */
+    
+}
+label, p{
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+
+/* footer */
+
+
+#footer{
+    display: flex;
+    padding-left: 37%;
+    padding-top: 20px;
+    
+}
+#imageX{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+
+}
+#footer{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    background-color:rgb(137,86,66);
+    border-radius:0px;
+    height: 180px;
+
+
+}
+#footer ol{
+    padding-left: 15%;
+}
+
+
+#footer p{
+
+    font-size: 20px;
+}
+
+h3 {
+    color:rgb(137,86,66) ;
+}
+h5:hover{
+    background-color: rgb(249,231,212);
+    color: black;
+    border-radius: 10px;
+}
+
+#paragraph{
+    color:whitesmoke;
+    font-size: 25px;
+    background-color:rgba(0, 0, 0,0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

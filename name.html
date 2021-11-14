@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- Latest compiled and minified JavaScript -->
+<!-- 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap.min.js"></script> -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Akan-Names</title>
+  </head>
+
+  <body>
+    <div id="about">
+      <nav class="navbar px-5">
+        <div class="row container-fluid">
+          <!-- right -->
+
+          <div class="col-md-7">
+            <img src="images/akanlogo.png" alt="" />
+          </div>
+
+          <!-- left -->
+
+          <div class="col-md-5 pb-5">
+            <div class="text-centre Home">
+              <a href="index.html">HOME</a>
+
+              <a href="about.html">ABOUT US</a>
+
+              <a href="name.html">GET AKAN NAMES</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Names and inputs -->
+
+      <div class="container text-center">
+
+        <!-- start of form -->
+
+        <div class="row">
+          <div class="col-md">
+            <h3>Fill in the form to get Akan Name.</h3>
+            <form action="">
+            <div class="form">
+              <div id="form">
+                <div class="form-group">
+                  <label for="">Date</label>
+                  <input
+                    type="text"
+                    placeholder="DD"
+                    class="form-control"
+                    id="date"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Month</label>
+                  <input
+                    type="text"
+                    placeholder="MM"
+                    class="form-control"
+                    id="month"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Year </label>
+                  <input
+                    type="text"
+                    placeholder="YYYY"
+                    class="form-control"
+                    id="year"
+                  />
+                </div>
+
+                <div class="gender">
+                  <p><span> Gender</span></p>
+                  <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-outline-warning rounded m-5"
+                  onclick="akanName()"> Submit
+                </button> 
+              </div>
+            </div>
+          </form>
+          </div>
+          <div class="col-md">
+            <h3>Below is your Day of Birth and Akan Name.</h3>
+            <div id="output"></div>
+          </div>
+        </div>
+
+        <!-- End of form -->
+      </div>
+    </div>
+
+    <div id="footer">
+
+      <ol>
+          <a href="https://web.facebook.com/?_rdc=1&_rdr">
+              <img src="images/facebook-removebg-preview.png" id="imageX">
+          </a>
+
+      </ol>
+
+      <ol>
+          <a href="https://www.instagram.com/accounts/login/?hl=en">
+              <img src="images/gi-removebg-preview.png" id="imageX">
+          </a>
+          <br> <br>
+          <p>
+            Copyright Babra Kiyai. All Rights Reserved
+          </p>
+      </ol>
+
+      <ol>
+          <a href="https://web.facebook.com/?_rdc=1&_rdr">
+              <img src="images/gmail-app-icon.png" id="imageX">
+          </a>
+
+      </ol>
+
+      <ol>
+          <a href="https://about.twitter.com/en">
+              <img src="images/preview.png" id="imageX">
+          </a>
+        
+      </ol>
+
+  </div>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

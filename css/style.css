@@ -28,7 +28,7 @@ background-image:url("../images//home.jpg");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 height: 700px;
-border-radius:0px;
+border-radius:10px;
 
 }
 
@@ -65,7 +65,7 @@ border-radius:0px;
     color: black;
     background-color: rgb(253, 202, 65);
     font-size: 30px;
-    border-radius: 0px;
+    border-radius: 100px;
     /* padding: 20px; */
     
 }
@@ -99,7 +99,7 @@ label, p{
     font-size: 30px;
     padding: 20px;
     background-color:orange;
-    border-radius:0px;
+    border-radius:10px;
     height: 100px;
 
 

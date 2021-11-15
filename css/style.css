@@ -44,8 +44,6 @@ border-radius:0px;
 /* ABOUT US */
 
 #about{
-    /* background-color: rgba(231, 231, 231, 0.9); */
-    /* background-image: url("/images/black.png"); */
     background-size: 100% 100%;
     background-color: rgb(5,4,9);
     border-radius: 20px;
@@ -67,7 +65,7 @@ border-radius:0px;
     color: black;
     background-color: rgb(253, 202, 65);
     font-size: 30px;
-    border-radius: 10px;
+    border-radius: 0px;
     /* padding: 20px; */
     
 }

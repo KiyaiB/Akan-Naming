@@ -11,3 +11,5 @@ This is a a web application that takes a user's birthday and calculates the day 
 SETUP/INSTALLATION REQUIREMENTS
 
 -Clone the repo
+
+     git@github.com:KiyaiB/Akan-Naming.git
